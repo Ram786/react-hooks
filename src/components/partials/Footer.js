@@ -1,7 +1,19 @@
 import React from "react";
 
 function Footer() {
-  return <h1>Footer</h1>;
+  return (
+    <div>
+      <footer className="page-footer font-small blue">
+        <div className="footer-copyright text-center py-3">
+          © 2018 Copyright:
+          <a href="https://mdbootstrap.com/education/bootstrap/">
+            {" "}
+            MDBootstrap.com
+          </a>
+        </div>
+      </footer>
+    </div>
+  );
 }
 
 export default Footer;
